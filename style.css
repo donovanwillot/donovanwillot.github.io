@@ -1,0 +1,43 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 100vh;
+}
+.box{
+    display: none;
+    transition: all 1s;
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.boxtitle{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    padding: 1rem;
+    transition: all .25s;
+}
+.boxtile:hover{
+    opacity: .7;
+}
+.profil{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+}
+.profil .soft{
+    background-color: burlywood;
+}
+.profil .lkn{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+}
+.profil .info{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+}
